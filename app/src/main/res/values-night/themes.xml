@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TodoApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#5570E5</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#1F2C6C</item>
+        <!-- Customize your theme here. -->
+        <item name="android:colorBackground">#050B2C</item>
+        <item name="android:textColor">#fff</item>
+        <item name="cardViewStyle">@style/MyCardView</item>
+    </style>
+    <style name="MyCardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">#1F2C6C</item>
+    </style>
+    <style name="MyAppBarLayoutStyle" parent="Widget.Design.AppBarLayout">
+        <item name="android:background">#0E154E</item>
+    </style>
+    <style name="MyEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:textColorHint">@color/my_text_hint_color</item>
+        <item name="android:textColor">#000</item>
+    </style>
+    <style name="MyIconStyle">
+        <item name="android:tint">@color/white</item>
+    </style>
+</resources>

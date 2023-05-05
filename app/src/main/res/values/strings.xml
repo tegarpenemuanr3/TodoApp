@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Todo App</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_form">FormActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="todo_title">Todo Title</string>
+    <string name="todo_description">Todo Description</string>
+    <string name="button">Create</string>
+    <string name="todo_app">Todo App</string>
+    <string name="update">Update</string>
+    <string name="enter_todo_title_here">Enter todo title here</string>
+    <string name="enter_todo_description_here">Enter todo description here</string>
+    <string name="complete">Complete</string>
+</resources>
